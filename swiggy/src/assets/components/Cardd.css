@@ -1,0 +1,59 @@
+.m{
+    flex-shrink: 0;
+    width: 270px;
+   
+}
+
+.imagess :hover{
+    transform: scale(1.1); /* Scale the image */
+    opacity: 0.8;
+}
+.imagess{
+    overflow: hidden;
+}
+.imagess img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+.cardds{
+    overflow: hidden;
+    display: flex;
+    gap: 5;
+    margin-bottom: 50px;
+}
+h3{
+    display: flex;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 25px;
+    color: white;
+    font-size: large;
+}
+
+.title{
+    display: flex;
+    justify-content: start;
+    font: bold;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left: 10px;
+}
+
+.online{
+    display: flex;
+    padding-left: 50px;
+}
+
+.gr{
+    padding-left: 50px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+    gap: 12px
+    
+}

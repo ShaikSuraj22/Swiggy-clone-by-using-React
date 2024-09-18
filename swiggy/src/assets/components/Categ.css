@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    flex-grow: 2;
+
+}
+.sym{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.le{
+    padding-left: 50px;
+}
+.sym :hover{
+    cursor: pointer;
+}
+.symbols{
+    display: flex;
+    align-items: center;
+    padding-left: 800px;
+    padding-right: 90px;
+}
+.leftball ,.rightball{
+    background-color: rgba(2, 6, 12, 0.15);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.hi{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+  
+}
+.box img{
+    padding-left: 20px;
+    width: 160px;
+}
+.box :hover{
+    transform: scale(1.1); /* Scale the image */
+    opacity: 0.8;
+}
+.line{
+    border: 3px transparent rgb(177, 166, 166);
+}
+
